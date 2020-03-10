@@ -1,0 +1,9 @@
+---
+- name: Test Connection to AWS servers
+  hosts: us-east-1
+  become: yes
+
+  tasks:
+
+  - name: Ping AWS servers
+    ping:
