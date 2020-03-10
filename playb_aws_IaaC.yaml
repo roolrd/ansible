@@ -10,8 +10,8 @@
      region        : eu-central-1
      count         : 4
      security_group: Ansible-SecGroup
-     aws_access_key: AKIASCMOZAHRMIK3BRWZ
-     aws_secret_key: 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
+     aws_access_key: 
+     aws_secret_key: 
 
   tasks :
      - name : Create a security group with Port 22, 80 open to 0.0.0.0/0
